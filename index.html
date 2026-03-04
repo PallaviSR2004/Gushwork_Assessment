@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pallavi S R | Interactive Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= STICKY HEADER ================= -->
+<header class="header">
+  <div class="logo">Pallavi S R</div>
+  <nav class="nav">
+  <a href="#about">
+    <img src="icons/about.webp">
+    <span>About</span>
+  </a>
+
+  <a href="#journey">
+    <img src="icons/journey.jpg">
+    <span>Journey</span>
+  </a>
+
+  <a href="#skills">
+    <img src="icons/skills.png">
+    <span>Skills</span>
+  </a>
+<a href="#projects">
+    <img src="icons/projects.webp">
+    <span>projects</span>
+  </a>
+  <a href="#achievements">
+    <img src="icons/achievements.webp">
+    <span>Achievements</span>
+  </a>
+
+  <a href="#gallery">
+    <img src="icons/gallery.png">
+    <span>Gallery</span>
+  </a>
+
+  <a href="#contact">
+    <img src="icons/contact.jpg">
+    <span>Connect</span>
+  </a>
+</nav>
+  <button id="mode-toggle" onclick="toggleMode()">🌙</button>
+</header>
+
+<!-- FLOATING SHAPES -->
+<div class="shape s1"></div>
+<div class="shape s2"></div>
+<div class="shape s3"></div>
+
+<!-- ================= HERO / PERSONAL INFO ================= -->
+<section id="about" class="hero fade">
+  <div class="hero-text">
+    <h1 class="reveal">Hi, I’m <span>Pallavi</span> 👋</h1>
+    <h2>Aspiring AI & Full Stack Web Developer</h2>
+
+    <p>
+      Engineering student passionate about building intelligent, interactive and
+      visually rich digital experiences using HTML, CSS, JS, AI and modern web technologies.
+    </p>
+
+    <div class="facts">
+      <div class="fact">🎓 Engineering Student</div>
+      <div class="fact">💻 Web Development</div>
+      <div class="fact">🎨 UI Design </div>
+    </div>
+
+    <div class="buttons">
+      <a href="#gallery" class="btn primary">Explore Hobbies</a>
+      <a href="Pallavi_S_R_Resume.pdf" download class="btn secondary" id="downloadBtn">
+  Download Resume
+</a>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <img src="images/Pallavi_S_R_Photo.jpeg" alt="Pallavi Photo">
+  </div>
+</section>
+
+
+<!-- ================= Journey ================= -->
+<section class="journey" id="journey">
+ <div class="journey-relay">
+  <h2 class="journey-text t1"> My Education Journey ✨</h2>
+  <h2 class="journey-text t2"> My Education Journey ✨</h2>
+</div>
+
+
+  <div class="journey-slider">
+    <button class="nav-btn left" onclick="prevSlide()">❮</button>
+
+    <div class="slide-container">
+      <!-- Slide 1 -->
+      <div class="slide active">
+        <img src="images/sslc.jpeg" alt="SSLC">
+        <div class="slide-content">
+          <h3>SSLC</h3>
+          <p><strong>School:</strong> Akshara Vidya Niketana</p>
+          <p><strong>Year:</strong> 2019 – 2020</p>
+          <p><strong>Score:</strong> 92.32%</p>
+          <p>Strong foundation in academics and discipline.</p>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="slide">
+        <img src="images/puc.png" alt="PUC">
+        <div class="slide-content">
+          <h3>PUC</h3>
+          <p><strong>College:</strong> Jnana Vikasa PU College</p>
+          <p><strong>Year:</strong> 2020 – 2022</p>
+          <p><strong>Score:</strong> 70%</p>
+          <p>Developed analytical thinking and interest in technology.</p>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slide">
+        <img src="images/degree.jpeg" alt="Degree">
+        <div class="slide-content">
+          <h3>B.E – Computer Science</h3>
+          <p><strong>College:</strong> Bangalore Technological Institute</p>
+          <p><strong>Year:</strong> 2022 – 2026</p>
+          <p><strong>CGPA:</strong> 8.52</p>
+          <p>Focused on Full Stack, AI, and real-world projects.</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="nav-btn right" onclick="nextSlide()">❯</button>
+  </div>
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section fade">
+  <h2 class="title">Skills</h2>
+  <div class="skills-grid">
+    <div><pre>HTML</pre></div>
+    <div>CSS</div>
+    <div>JavaScript</div>
+    <div>React Basics</div>
+    <div>Python</div>
+    <div>Java</div>
+    <div>MYSQL</div>
+    <div>ORACLE</div>
+    <div>AI & ML</div>
+    <div>UI/UX Design</div>
+  </div>
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+<section class="projects" id="projects">
+  <h2 class="projects-title">Projects</h2>
+  
+  <!-- Project 1 -->
+  <div class="project-row">
+    <div class="project-content">
+      <h3>Command Drive Warrior</h3>
+      <p>
+        Voice-controlled robotic car built using Arduino UNO with real-time
+        obstacle avoidance. Integrated ultrasonic sensors for autonomous
+        navigation and emergency braking. Enabled hands-free control using
+        Google Speech-to-Text and Bluetooth communication via Android app.
+      </p>
+    </div>
+
+    <div class="project-media">
+      <video src="videos/robotic-car.mp4" autoplay muted loop playsinline></video>
+    </div>
+  </div>
+
+  <!-- Project 2 -->
+  <div class="project-row">
+    <div class="project-content">
+      <h3>AI-Powered Smart Agro Support</h3>
+      <p>
+        AI-based smart irrigation and agriculture support system using Machine
+        Learning and Deep Learning. Includes soil-moisture based irrigation,
+        crop recommendation, crop price prediction, disease detection from leaf
+        images, fertilizer recommendations, and a web dashboard for monitoring
+        and notifications.
+      </p>
+    </div>
+
+    <div class="project-media">
+      <video src="videos/smart-agro.mp4" autoplay muted loop playsinline></video>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= ACHIEVEMENTS ================= -->
+<section id="achievements" class="section fade">
+  <h2 class="title">Achievements / Experience</h2>
+
+  <div class="achievements-row">
+
+    <!-- Achievement 1 -->
+    <div class="achievement-card">
+      <img src="images/sm.jpeg" alt="Data Science Certificate">
+      <h3>Data Science Intern</h3>
+      <a href="certificates/datascience.pdf" download class="cert-link">
+        Download Certificate
+      </a>
+    </div>
+
+    <!-- Achievement 2 -->
+    <div class="achievement-card">
+      <img src="images/wb.jpeg" alt="Python Certificate">
+      <h3>Python Intern</h3>
+      <a href="certificates/python.pdf" download class="cert-link">
+        Download Certificate
+      </a>
+    </div>
+
+    <!-- Achievement 3 -->
+    <div class="achievement-card">
+      <img src="images/ot.jpeg" alt="Software Certificate">
+      <h3>Software Development Intern</h3>
+      <a href="certificates/software-development.pdf" download class="cert-link">
+        Download Certificate
+      </a>
+    </div>
+
+    <!-- Achievement 4 -->
+    <div class="achievement-card">
+      <img src="images/kn.webp" alt="Full Stack Internship">
+      <h3>Full Stack Intern (KodNest)</h3>
+      <a href="certificates/fullstack.pdf" download class="cert-link">
+        Download offer Letter
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= INTERACTIVE GALLERY ================= -->
+<section id="gallery" class="gallery fade">
+<div class="hobbies-title-wrap">
+  <h2 class="shaky-title">Hobbies</h2>
+</div>
+
+  <div class="gallery-grid">
+    <img src="images/HOBBY1.jpeg" onclick="openLightbox(this)">
+    <img src="images/HOBBY2.jpeg" onclick="openLightbox(this)">
+    <img src="images/HOBBY3.jpeg" onclick="openLightbox(this)">
+    <img src="images/HOBBY4.jpeg" onclick="openLightbox(this)">
+    <img src="images/HOBBY5.jpeg" onclick="openLightbox(this)">
+    <img src="images/HOBBY6.jpeg" onclick="openLightbox(this)">
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img">
+</div>
+
+
+<!-- ================= CONTACT ================= -->
+<footer id="contact" class="contact-footer">
+  <a href="mailto:pallusr2004@gmail.com" class="contact-item">
+    <img src="icons/email.webp" alt="Email">
+    <span>Email</span>
+  </a>
+
+  <a href="tel:+918317391120" class="contact-item">
+    <img src="icons/call.jpg" alt="Phone">
+    <span>Call</span>
+  </a>
+
+  <a href="https://www.linkedin.com/in/pallavi-sr-b51717250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+     target="_blank" class="contact-item">
+    <img src="icons/linkedin.webp" alt="LinkedIn">
+    <span>LinkedIn</span>
+  </a>
+
+  <a href="https://github.com/PallaviSR2004"
+     target="_blank" class="contact-item">
+    <img src="icons/github.png" alt="GitHub">
+    <span>GitHub</span>
+  </a>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
