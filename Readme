@@ -1,0 +1,77 @@
+# Gushwork Assessment
+
+This project is a responsive web page developed as part of the **Gushwork Frontend Assessment**.  
+The page is implemented using **Vanilla HTML, CSS, and JavaScript only**, without using any frameworks or external libraries.
+
+The goal of the project is to create a **pixel-accurate, responsive, and interactive webpage** based on the design provided in the Figma file.
+
+---
+
+## Design Reference
+Figma Design:  
+https://www.figma.com/design/DOv07H7C2tA5UrVLhmfwfW/Gushwork-Assignment
+
+The layout, styling, spacing, and interactive elements were implemented following the design specifications in the Figma file.
+
+---
+
+## Key Features
+
+### Responsive Design
+The webpage is fully responsive and adapts to different screen sizes including:
+- Desktop
+- Tablet
+- Mobile devices
+
+CSS media queries and flexible layouts are used to ensure proper alignment and spacing across devices.
+
+### Sticky Header with Scroll Behavior
+The header includes dynamic scroll functionality implemented using JavaScript.
+
+- Header stays fixed at the top of the page
+- Appears when the user scrolls down
+- Hides when scrolling back up
+- Smooth transition effects for better user experience
+
+### Smooth Scrolling Navigation
+Navigation links smoothly scroll to different sections of the webpage using JavaScript.
+
+### Dark Mode Toggle
+A dark mode feature is implemented that allows users to switch between **light and dark themes** dynamically.
+
+### Education Journey Slider
+A slider component is implemented to display educational milestones.  
+Users can navigate between slides using previous and next buttons.
+
+### Image Gallery with Lightbox
+The gallery section allows users to click on images to open a **lightbox preview**, providing a larger view of the selected image.
+
+### Hover Effects and Animations
+Various hover effects and animations are implemented using CSS transitions and keyframes to enhance user interaction.
+
+---
+
+## Technologies Used
+
+- **HTML5** – Semantic page structure
+- **CSS3** – Layout, animations, responsive design using Flexbox and Grid
+- **JavaScript (Vanilla JS)** – Interactive components such as:
+  - Sticky header behavior
+  - Slider functionality
+  - Dark mode toggle
+  - Image lightbox
+
+---
+
+## Project Files
+
+- **index.html** – Main webpage structure
+- **style.css** – Styling, layout, animations, and responsive design
+- **script.js** – JavaScript functionality and interactions
+- Images, icons, and media assets used for the design
+
+---
+
+## Author
+
+**Pallavi S R**
