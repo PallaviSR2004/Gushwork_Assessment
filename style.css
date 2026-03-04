@@ -29,7 +29,7 @@ body{
 body{
   background:
     linear-gradient(rgba(255,255,255,0.15), rgba(255,255,255,0.15)),
-    url("images/ab.avif") center/cover no-repeat fixed;
+    url("ab.avif") center/cover no-repeat fixed;
   color: var(--text);
   transition: .4s;
 }
@@ -37,7 +37,7 @@ body{
 body.dark{
   background:
     linear-gradient(rgba(2,6,23,0.9), rgba(2,6,23,0.9)),
-    url("images/ab.avif") center/cover no-repeat fixed;
+    url("ab.avif") center/cover no-repeat fixed;
 }
 
 
@@ -125,7 +125,7 @@ body.dark .nav a img{
 
 #about{
   padding: 80px 8%;
-  background: url("images/ab.avif") center/cover no-repeat;
+  background: url("ab.avif") center/cover no-repeat;
   border-radius: 30px;
 }
 
@@ -133,7 +133,7 @@ body.dark .nav a img{
 body.dark #about{
   background:
     linear-gradient(rgba(2,6,23,0.85), rgba(2,6,23,0.85)),
-    url("images/ab.avif") center/cover no-repeat;
+    url("ab.avif") center/cover no-repeat;
 }
 
 .hero h1{font-size:48px}
@@ -410,7 +410,7 @@ body.dark .skills-grid div{
 /* ================= PROJECTS ================= */
 #projects{
   padding: 80px 8%;
-  background: url("images/p.jpeg") center/cover no-repeat;
+  background: url("p.jpeg") center/cover no-repeat;
   border-radius: 30px;
 }
 
@@ -418,7 +418,7 @@ body.dark .skills-grid div{
 body.dark #projects{
   background:
     linear-gradient(rgba(2,6,23,0.85), rgba(2,6,23,0.85)),
-    url("images/p.jpeg") center/cover no-repeat;
+    url("p.jpeg") center/cover no-repeat;
 }
 
 .projects-title{
@@ -483,7 +483,7 @@ body.dark .project-row {
 .project-robot {
   background:
     linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
-    url("images/robotic-bg.avif") center/cover no-repeat;
+    url("robotic-bg.avif") center/cover no-repeat;
   border-radius: 24px;
   padding: 60px;
 }
@@ -492,7 +492,7 @@ body.dark .project-row {
 .project-agro {
   background:
     linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
-    url("images/agro-bg.avif") center/cover no-repeat;
+    url("agro-bg.avif") center/cover no-repeat;
   border-radius: 24px;
   padding: 60px;
 }
@@ -838,4 +838,5 @@ body.dark .floating-dot{
     columns: 1;
     padding: 0 16px;
   }
+
 }
